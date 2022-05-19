@@ -1,0 +1,33 @@
+@media (min-width: 769px) {
+  .descripcion-producto {
+    display: none;
+  }
+  .producto:hover .descripcion-producto {
+    display: block;
+  }
+  .producto {
+    box-shadow: none;
+  }
+  .producto:hover {
+    transition: box-shadow 1000ms;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  .rotacion {
+    transition: transform 1500ms;
+  }
+  .producto:hover .rotacion {
+    transform: rotate(-360deg);
+  }
+  footer i:hover {
+    transition: color 1000ms;
+    color: #39b54a;
+  }
+  .sign-in:hover {
+    transition: background-color 1000ms;
+    background-color: #0022aa;
+  }
+  .clear-button:hover {
+    transition: background-color 1000ms;
+    background-color: rgb(71, 69, 69);
+  }
+}

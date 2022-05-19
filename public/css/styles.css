@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+.font-amarillo {
+  color: #eac926;
+}
+.bg-amarillo {
+  background-color: #eac926;
+}
+.font-azul {
+  color: #03264c;
+}
+.bg-azul {
+  background-color: #03264c;
+}
+.font-celeste {
+  color: #1259c3;
+}
+.bg-celeste {
+  background-color: #1259c3;
+}
+.font-gris-oscuro {
+  color: #666;
+}
+.bg-gris-oscuro {
+  background-color: #666;
+}
+.font-gris-claro {
+  color: #ebebeb;
+}
+.bg-gris-claro {
+  background-color: #ebebeb;
+}
+.font-verde {
+  color: #39b54a;
+}
+.bg-verde {
+  background-color: #39b54a;
+}
+.bg-blanco {
+  background-color: white;
+}
+.font-blanco {
+  color: white;
+}
+.font-heading {
+  font-size: 24px;
+}
+.font-large {
+  font-size: 18px;
+}
+.font-medium {
+  font-size: 16px;
+}
+.font-small {
+  font-size: 12px;
+}
+.font-bold {
+  font: bold;
+}
+footer {
+  margin: auto;
+  text-align: center;
+}
+.iconos-footer {
+  font-size: 2em;
+  margin-bottom: 8px;
+  padding: 10px;
+}
+.nav-section {
+  padding: 0;
+}
+.burger-menu {
+  text-align: center;
+}
+.burger-menu i {
+  padding: 8px;
+  background-color: #1259c3;
+  color: #ebebeb;
+  border-radius: 5px;
+}
+.bg-white {
+  background-color: white;
+}
+.truck-icon {
+  padding: 4px;
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+}
+.producto {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.descripcion-producto {
+  display: none;
+}
+.nav-section {
+  display: none;
+}
+.nav-style {
+  padding: 0px;
+}
+.nav-style li a {
+  color: black;
+  text-decoration: none;
+}
+.nav-style li {
+  list-style: none;
+}
+.style-heading-form {
+  font-size: 24px;
+  color: white;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.style-button {
+  color: white;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.style-input {
+  background-color: white;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  padding: 8px;
+}
+.search-input {
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+  padding: 4px;
+}
+.search-button {
+  padding: 4px;
+  border: none;
+  margin-left: 2px;
+  background-color: white;
+}
+.label-display {
+  display: none;
+}
+.label {
+  display: block;
+  margin-bottom: 4px;
+  width: 100%;
+  font-weight: bold;
+}
+.user-perfil {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.error-msg {
+  display: block;
+  padding-top: 4px;
+  padding-left: 8px;
+  color: red;
+  width: 100%;
+}

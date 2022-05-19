@@ -1,0 +1,122 @@
+.p-4 {
+  padding: 4px;
+}
+.p-8 {
+  padding: 8px;
+}
+
+.b-1 {
+  border-top: solid;
+  border-width: 1px;
+  border-color: #ebebeb;
+}
+.b-circle {
+  border-radius: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}
+.w-90 {
+  width: 90%;
+}
+.w-80 {
+  width: 80%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-33 {
+  width: 33%;
+}
+
+.m-0 {
+  margin: 0;
+}
+.m-center {
+  margin: auto;
+}
+.m-8 {
+  margin: 8px;
+}
+.mr-0 {
+  margin-right: 0px;
+}
+.mr-8 {
+  margin-right: 8px;
+}
+.ml-0 {
+  margin-left: 0px;
+}
+.ml-8 {
+  margin-left: 8px;
+}
+.mt-8 {
+  margin-top: 8px;
+}
+.m-10 {
+  margin: 10px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mtb-10 {
+  margin: 10px 0px;
+}
+.m-30 {
+  margin: 30px;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.relative {
+  position: relative;
+}
+
+.fx {
+  display: flex;
+}
+.fx-wrap {
+  flex-wrap: wrap;
+}
+.fx-align-center {
+  align-items: center;
+}
+.fx-grow-70 {
+  flex-grow: 0.7;
+}
+.fx-grow-30 {
+  flex-grow: 0.3;
+}
+.fx-space-b {
+  justify-content: space-between;
+}
+.fx-space-a {
+  justify-content: space-around;
+}
+
+@media (min-width: 468px) {
+  .tablet-w-80 {
+    width: 80%;
+  }
+  .tablet-w-50 {
+    width: 50%;
+  }
+  .tablet-w-33 {
+    width: 33%;
+  }
+}
+@media (min-width: 769px) {
+  .desktop-w-25 {
+    width: 25%;
+  }
+  .desktop-w-33 {
+    width: 33%;
+  }
+  .desktop-w-50 {
+    width: 50%;
+  }
+}

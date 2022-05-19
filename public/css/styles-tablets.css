@@ -1,0 +1,11 @@
+@media (min-width: 468px) {
+  .descripcion-producto {
+    display: block;
+  }
+  .nav-section {
+    display: flex;
+  }
+  .burger-menu {
+    display: none;
+  }
+}
